@@ -16,30 +16,19 @@ class Coin {
         
     }
     void hit(Coin c){
-        
-            // if (this.isHead){
-            //     System.out.println("From flip() -> I am head my color is SILVER (my tailColor is " + this.tailColor + ")");
-            //     // System.out.println("From flip() -> I am head my color is SILVER (my tailColor is " + c.tailColor + ")");
-            // }
-            // else{
-            //     System.out.println("From flip() -> My face color is " + tailColor);
-            // }
-            // isHead = !isHead;
-            // c.isHead = !c.isHead;
-            tailColor = this.tailColor;
-            flip();
-            tailColor = c.tailColor;
-            flip();
-            // System.out.println("c1 hit c2");
-        
-        // if ()
-        
-        
-        // isHead = !isHead;
-        
+        if(!this.equals(c)){
+            this.flip();
+            c.flip();
+        }
     }
     void hit(Coin c1, Coin c2){
-
+        if (!(this.equals(c1) || this.equals(c2))){
+            c1.flip();
+            this.flip();
+            c2.flip();
+            this.flip();
+        }
+        
     }
     @Override
     public boolean equals(Object obj) {
