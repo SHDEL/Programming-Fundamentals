@@ -1,10 +1,9 @@
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Scanner;
-public class ProFun13_ReadCSVxxyyyy {
+public class ProFun13_ReadCSV660019 {
     public static void main(String[] args) {
         demo1();
-    
     }
     static void demo1(){
         try (Scanner input = new Scanner(Paths.get("movies.csv"));) {
@@ -23,7 +22,7 @@ public class ProFun13_ReadCSVxxyyyy {
             e.printStackTrace();
         }
     }
-    static void demo2(){
+    // static void demo2(){
         
-    }
+    // }
 }
