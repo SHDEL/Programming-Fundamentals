@@ -1,9 +1,10 @@
+package Lab9;
 import java.util.Arrays;
 
 public class ProFun09_660019 {
     public static void main(String... args) {
         
-        //  q2();
+         q2();
         // q3_markTheBomb();
         /* Q1 could take sometime to understand the idea, solve q1 last. */
         // q1();
