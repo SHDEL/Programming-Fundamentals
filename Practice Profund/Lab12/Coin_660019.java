@@ -20,6 +20,7 @@ class Coin {
             this.flip();
             c.flip();
         }
+
     }
     void hit(Coin c1, Coin c2){
         if (!(this.equals(c1) || this.equals(c2))){

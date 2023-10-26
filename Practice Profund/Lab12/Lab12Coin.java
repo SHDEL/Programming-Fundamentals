@@ -33,4 +33,7 @@ public class Lab12Coin {
         c2.flip();
         System.out.println(c2);
     } 
+    void testnonstatic(){
+        System.out.println("Should error");
+    }
 }
